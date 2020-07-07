@@ -1,0 +1,43 @@
+.leftToRight{
+	display: flex;
+}
+
+.header{
+	/* background: pink; */
+	text-align: center;
+	font-size: 28px;
+	padding: 7px;
+	border-bottom: 1px #ccc solid;
+}
+
+.left-menu{
+	/* background: antiquewhite; */
+	width: 150px;
+	border-right: 1px #ccc solid;
+}
+
+.content{
+	/* background: aqua; */
+	flex: 1;
+	display: flex;
+}
+
+.content img{
+	max-width: 100px;
+    max-height: 150px;
+}
+
+.goods{
+	margin: 5px;
+	border: 1px #ccc solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+	text-align: center;
+	color: #ccc;
+	border-top: 1px #ccc solid;
+}
+
